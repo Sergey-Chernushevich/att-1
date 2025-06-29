@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20250630010711" />
+  <title>Test_ 1</title>
+</head>
+
+  <body>
+    <div class="select" id="country-select">
+      <div class="select__header" id="select__header">
+        <input
+          type="text"
+          class="select__chosen"
+          placeholder="Ваша страна проживания"
+          readonly
+        />
+        <svg
+          class="select__header-icon"
+          width="16px"
+          height="16px"
+          viewBox="0 -19.04 75.804 75.804"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="#000000"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <g
+              id="Group_67"
+              data-name="Group 67"
+              transform="translate(-798.203 -587.815)"
+            >
+              <path
+                id="Path_59"
+                data-name="Path 59"
+                d="M798.2,589.314a1.5,1.5,0,0,1,2.561-1.06l33.56,33.556a2.528,2.528,0,0,0,3.564,0l33.558-33.556a1.5,1.5,0,1,1,2.121,2.121l-33.558,33.557a5.53,5.53,0,0,1-7.807,0l-33.56-33.557A1.5,1.5,0,0,1,798.2,589.314Z"
+                fill="#000000"
+              ></path>
+            </g>
+          </g>
+        </svg>
+      </div>
+
+      <div id="dropdown" class="select__dropdown">
+        <div class="select__search-wrapper">
+          <svg
+            class="select__search-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="20"
+            height="20"
+            viewBox="0 0 50 50"
+          >
+            <path
+              d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+            ></path>
+          </svg>
+          <input
+            type="text"
+            id="countrySearch"
+            class="select__search-input"
+            placeholder="Поиск страны..."
+          />
+        </div>
+
+        <ul class="select__option-list"></ul>
+      </div>
+    </div>
+    <script src="js/app.min.js?_v=20250630010711"></script>
+  </body>
+</html>
